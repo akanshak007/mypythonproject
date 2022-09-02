@@ -1,8 +1,12 @@
-from myfunction_dir import choiceofMath
 print ("Welcome to choice of math!\n")
-input ("Press Y to start")
-while 'Y':
-    choiceofMath.choices()
+ch = input("Press Y to start\n")
+print ("You have selected\n", ch)
+while ch == "Y":
+    from myfunction_dir import choiceofMath
+    ch = input ("Do you still want to continue with maths[Y/N]\n: ")
+
+
+
     
 
 
