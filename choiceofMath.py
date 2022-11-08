@@ -14,11 +14,11 @@ def coh():
         prod = prod_Num.multiply_Num()
         print ("Your product is", prod)
 
-ch= input ("Do you want to repeat this program [Y/N]\n: ")
-if ch=='Y' or ch=='y':
-    startMath.sm()
-else:
-    print ("Goodbye!")
+# ch= input ("Do you want to repeat this program [Y/N]\n: ")
+# if ch=='Y' or ch=='y':
+#     startMath.sm()
+# else:
+#     print ("Goodbye!")
 
 
 
